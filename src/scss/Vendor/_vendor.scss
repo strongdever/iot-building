@@ -1467,7 +1467,8 @@
 }
 
 .container {
-    max-width: 132.0rem;
+    width: 90%;
+    max-width: 120rem;
 }
 
 @include media('sp') {

@@ -1,0 +1,59 @@
+.urgent-tasks {
+    .head-text {
+        margin-bottom: 2.4rem;
+    }
+
+    .urgent-tasks-table {
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        margin-bottom: 2.4rem;
+
+        thead {
+            tr {
+                background: #FFF;
+            }
+        }
+
+        tbody {
+            tr {
+                border-top: 1px solid #ECECEC;
+                background: #FFF6F6;
+            }
+        }
+
+        td,
+        th {
+            text-align: left;
+            padding: 1.6rem 2.4rem;
+            font-size: 1.5rem;
+        }
+
+        th {
+            font-weight: 700;
+        }
+
+        td {
+            font-weight: 500;
+            line-height: 2.4rem;
+        }
+
+        tr {
+            td {
+                &:nth-child(4) {
+                    color: $red_color;
+                }
+                &:last-child {
+                    text-align: right;
+                    .rect-btn {
+                        margin-left: auto;
+                        padding: 1.6rem 2.4rem;
+                        height: 4.2rem;
+                        background: $green_color;
+                        color: #FFF;
+                    }
+                }
+            }
+        }
+    }
+}
