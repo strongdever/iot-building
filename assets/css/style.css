@@ -810,6 +810,8 @@ body.mobile-nav-active #mobile-nav {
   border-collapse: collapse;
   border-spacing: 0;
   margin-bottom: 2.4rem;
+  border-radius: 4px;
+  overflow: hidden;
 }
 
 .urgent-tasks .urgent-tasks-table thead tr {
@@ -902,6 +904,37 @@ button:hover {
 }
 
 .header-nav .nav-menu li .round-btn span {
+  color: #FFF;
+}
+
+.header-nav .nav-menu li .tasks-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 0.8rem;
+     -moz-column-gap: 0.8rem;
+          column-gap: 0.8rem;
+}
+
+.header-nav .nav-menu li .tasks-btn .task-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #F13636;
+  border-radius: 90px;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.3rem;
+  line-height: 100%;
   color: #FFF;
 }
 

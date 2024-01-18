@@ -38,6 +38,24 @@
                         color: #FFF;
                     }
                 }
+
+                .tasks-btn {
+                    display: flex;
+                    align-items: center;
+                    column-gap: 0.8rem;
+                    .task-list {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background: $red_color;
+                        border-radius: 90px;
+                        width: 2rem;
+                        height: 2rem;
+                        font-size: 1.3rem;
+                        line-height: 100%;
+                        color: #FFF;
+                    }
+                }
             }
         }
     }
