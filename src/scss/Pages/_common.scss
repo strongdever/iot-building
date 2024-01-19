@@ -10,6 +10,13 @@
         opacity: 0.7;
     }
 
+    .head-text {
+        font-family: "Noto Sans JP";
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 100%;
+    }
+
     .header-nav {
         margin: 4.8rem 0 3.2rem 0;
         position: relative;
@@ -29,7 +36,7 @@
             line-height: 1;
 
             li {
-                .round-btn {
+                .active {
                     padding: 1.6rem 3.2rem;
                     height: 4.6rem;
                     background: $green_color;
@@ -43,6 +50,7 @@
                     display: flex;
                     align-items: center;
                     column-gap: 0.8rem;
+
                     .task-list {
                         display: flex;
                         align-items: center;
@@ -65,6 +73,14 @@
         align-items: center;
         justify-content: center;
         border-radius: 4px;
+    }
+
+    .green-color {
+        color: $green_color;
+    }
+
+    .red-color {
+        color: $red_color;
     }
 
     .round-btn {
